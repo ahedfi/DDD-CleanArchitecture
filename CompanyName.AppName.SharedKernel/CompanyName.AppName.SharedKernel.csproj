@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyName.AppName.SharedKernel.ApplicationService\CompanyName.AppName.SharedKernel.ApplicationService.csproj" />
+    <ProjectReference Include="..\CompanyName.AppName.SharedKernel.DomainModel\CompanyName.AppName.SharedKernel.DomainModel.csproj" />
+    <ProjectReference Include="..\CompanyName.AppName.SharedKernel.DomainServices\CompanyName.AppName.SharedKernel.DomainService.csproj" />
+    <ProjectReference Include="..\CompanyName.AppName.SharedKernel.Persistance\CompanyName.AppName.SharedKernel.Persistance.csproj" />
+    <ProjectReference Include="..\CompanyName.AppName.SharedKernel.Persistence\CompanyName.AppName.SharedKernel.Infrastructure.csproj" />
+    <ProjectReference Include="..\CompanyName.AppName.SharedKernel.WebApi\CompanyName.AppName.SharedKernel.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>

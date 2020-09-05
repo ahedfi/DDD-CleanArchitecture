@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyName.AppName.SharedKernel.DomainModel\CompanyName.AppName.SharedKernel.DomainModel.csproj" />
+    <ProjectReference Include="..\CompanyName.AppName.SharedKernel.DomainServices\CompanyName.AppName.SharedKernel.DomainService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EntityName\Queries\" />
+    <Folder Include="EntityName\Commands\" />
+  </ItemGroup>
+
+</Project>
